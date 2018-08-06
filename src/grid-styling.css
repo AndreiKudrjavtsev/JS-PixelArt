@@ -1,0 +1,15 @@
+#grid {
+    background-color: dimgray;
+    flex-direction: row;
+    display: inline-flex;
+    margin: 1em;
+}
+
+.cell {
+    margin: 1px;
+    padding: 0;
+    width: 30px;
+    height: 25px;
+    background-color: lavender;
+    color: black;
+}
