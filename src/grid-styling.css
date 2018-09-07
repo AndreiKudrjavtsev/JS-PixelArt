@@ -4,6 +4,27 @@
     display: inline-flex;
     margin: 1em;
 }
+#palette {
+    background-color: gray;
+    flex-direction: row;
+    display: inline-flex;
+    margin: 3em;
+}
+#current-color-panel {
+    background-color: white;
+    flex-direction: row;
+    display: inline-flex;
+}
+#current-color {
+    background-color: brown;
+    flex-direction: row;
+    display: inline-flex;
+    margin: 1px;
+    padding: 0;
+    width: 30px;
+    height: 25px;
+    color: black;
+}
 
 .cell {
     margin: 1px;
@@ -12,4 +33,22 @@
     height: 25px;
     background-color: lavender;
     color: black;
+}
+
+.color {
+    margin: 1px;
+    padding: 0;
+    width: 30px;
+    height: 25px;
+    color: black;
+}
+
+#color-black {
+    background-color: black;
+}
+#color-blue {
+    background-color: blue;
+}
+#color-red {
+    background-color: red;
 }
