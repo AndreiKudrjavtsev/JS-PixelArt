@@ -5,22 +5,26 @@
     margin: 1em;
 }
 #palette {
-    background-color: gray;
-    flex-direction: row;
+    background-color: White;
+    flex-direction: column;
     display: inline-flex;
+    float: right;
     margin: 3em;
 }
 #current-color-panel {
-    background-color: white;
+    background-color: inherit;
     flex-direction: row;
     display: inline-flex;
+    height: 30px;
+}
+#colors {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: inherit;
 }
 #current-color {
     background-color: brown;
-    flex-direction: row;
-    display: inline-flex;
-    margin: 1px;
-    padding: 0;
+    margin-left: 5px;
     width: 30px;
     height: 25px;
     color: black;
@@ -41,6 +45,8 @@
     width: 30px;
     height: 25px;
     color: black;
+    border: 1px solid;
+    border-radius: 16px;
 }
 
 #color-black {
